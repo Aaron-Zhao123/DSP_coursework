@@ -1,0 +1,11 @@
+%exercise2_3
+
+n=0;
+x_n=1;
+
+x_n_delayed=zeros()
+
+for i = 1:8
+    n_delayed= l ;
+    x_n = 1;
+end
