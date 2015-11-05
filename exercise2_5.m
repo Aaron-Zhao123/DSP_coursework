@@ -14,13 +14,13 @@ subplot (2,2,1);
 plot (n1,abs(y1_freq));
 title (' abs');
 subplot (2,2,2);
-plot (n1,phase(y1_freq));
+plot (n1,angle(y1_freq));
 title(' phase');
 subplot (2,2,3);
 plot (n2,abs(y2_freq));
 title (' abs');
 subplot (2,2,4);
-plot (n2,phase(y2_freq));
+plot (n2,angle(y2_freq));
 title(' phase');
 
 % the DFT could be visulized as convolve a signal with sinc in frequency

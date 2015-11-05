@@ -21,7 +21,7 @@ subplot (2,1,1);
 plot (n, abs(X_n_freq));
 title ('impluse abs')
 subplot (2,1,2);
-plot (n, phase(X_n_freq));
+plot (n, angle(X_n_freq));
 % DFT of a delta fucntion is zero magnitude and zero phase
 % ii it will be a flat line in frequency domain 
 title ('impulse phase');
@@ -33,5 +33,5 @@ subplot (2,1,1);
 plot (n,abs(X_fft));
 title ('constant abs');
 subplot (2,1,2);
-plot (n,phase(X_fft));
+plot (n,angle(X_fft));
 title('constant phase');

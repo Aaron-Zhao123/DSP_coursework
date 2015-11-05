@@ -13,5 +13,5 @@ n= 0:1:31;
 x_n = 0.9 .^ n;
 X_fft= fft (x_n);
 subplot (2,1,2);
-plot (n, abs(X_fft));
+stem (n, abs(X_fft));
 title('FFT')

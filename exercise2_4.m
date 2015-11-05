@@ -17,7 +17,7 @@ stem(abs(x_f1));
 title('x_f1 abs');
 hold on
 subplot (3,2,2);
-stem(phase(x_f1));
+stem(angle(x_f1));
 title('x_f1 phase');
 hold on
 
@@ -26,7 +26,7 @@ stem(abs(x_f2));
 title('x_f2 abs');
 hold on
 subplot (3,2,4);
-stem(phase(x_f2));
+stem(angle(x_f2));
 title('x_f2 phase');
 
 
@@ -35,7 +35,7 @@ stem(abs(x_f3));
 title('x_f3 abs');
 hold on
 subplot (3,2,6);
-stem(phase(x_f3));
+stem(angle(x_f3));
 title('x_f3 phase');
 
 hold off
